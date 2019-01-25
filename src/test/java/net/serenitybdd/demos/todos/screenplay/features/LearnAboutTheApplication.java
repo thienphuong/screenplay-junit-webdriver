@@ -24,8 +24,6 @@ public class LearnAboutTheApplication {
     public WebDriver hisMobileDevice;
 
     String jacob = "Jacob";
-    
-    ApplicationHomePage applicationHomePage;
 
     @Before
     public void jacobCanBrowseTheMobileApp() {
@@ -36,7 +34,7 @@ public class LearnAboutTheApplication {
     public void should_see_how_to_begin() {
 
     	// Given
-    	theActorCalled(jacob).wasAbleTo(Open.browserOn().the(applicationHomePage));
+    	theActorCalled(jacob).wasAbleTo(Open.browserOn().the(ApplicationHomePage.clas));
         
         // When 
         //theActorInTheSpotlight().attemptsTo("Define some tasks to achieve your goals");
