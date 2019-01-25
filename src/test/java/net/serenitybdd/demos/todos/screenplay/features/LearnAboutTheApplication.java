@@ -34,7 +34,7 @@ public class LearnAboutTheApplication {
     public void should_see_how_to_begin() {
 
     	// Given
-    	theActorCalled(jacob).wasAbleTo(Open.browserOn().the(ApplicationHomePage.clas));
+    	theActorCalled(jacob).wasAbleTo(Open.browserOn().the(ApplicationHomePage.class));
         
         // When 
         //theActorInTheSpotlight().attemptsTo("Define some tasks to achieve your goals");
